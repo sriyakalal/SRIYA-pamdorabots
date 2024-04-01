@@ -3,13 +3,56 @@
     <pattern>HI</pattern>
     <pattern>HELLO</pattern>
     <pattern>HEY</pattern>
-    <template>Hi there! How can I help you today?</template>
+    <template>Hi there! Welcome to our phone repair customer care. How can I help you with your phone today?</template>
   </category>
 
   <category>
     <pattern>BYE</pattern>
     <pattern>GOODBYE</pattern>
     <pattern>SEE YOU LATER</pattern>
-    <template>It was nice chatting with you! Have a great day!</template>
+    <template>It was nice talking to you! Have a great day. If you need anything else, feel free to come back!</template>
+  </category>
+
+  <category>
+    <pattern>BROKEN PHONE</pattern>
+    <pattern>MY PHONE IS NOT WORKING</pattern>
+    <pattern>(.*) PHONE PROBLEM (.*)</pattern>
+    <template>I understand your phone is causing you trouble. Can you tell me a bit more about the issue, such as what's happening or what symptoms you're experiencing? This will help me direct you to the best solution.</template>
+  </category>
+
+  <category>
+    <pattern>REPAIR COSTS</pattern>
+    <pattern>HOW MUCH DOES IT COST TO FIX MY PHONE</pattern>
+    <template>The repair cost depends on the specific problem and the phone model. However, I can give you an estimate if you tell me what kind of issue you're facing and the phone model you have.</template>
+  </category>
+
+  <category>
+    <pattern>WARRANTY</pattern>
+    <pattern>IS MY PHONE UNDER WARRANTY</pattern>
+    <template>To check your warranty status, I'll need some information like your phone model and maybe your purchase receipt. Do you have those handy?</template>
+  </category>
+
+  <category>
+    <pattern>APPOINTMENT</pattern>
+    <pattern>SCHEDULE REPAIR</pattern>
+    <template>Sure, we can definitely schedule a repair appointment for you. Would you like to bring your phone in person or explore our mail-in repair options?</template>
+  </category>
+
+  <category>
+    <pattern>SCREEN REPAIR</pattern>
+    <pattern>BROKEN SCREEN</pattern>
+    <pattern>(.*) CRACKED SCREEN (.*)</pattern>
+    <template>Cracked screens are a common problem. We offer screen repair services for most phone models. If you tell me your phone model, I can provide more details about the repair process and estimated turnaround time.</template>
+  </category>
+
+  <category>
+    <pattern>WATER DAMAGE</pattern>
+    <pattern>MY PHONE GOT WET</pattern>
+    <template>It's crucial to act quickly if your phone got wet. Here are some immediate steps you can take: Turn off the phone, remove the case and SIM card, and don't try to charge it. Then, you can bring your phone in for a water damage assessment. The sooner you bring it in, the better the chance of salvaging it.</template>
+  </category>
+
+  <category>
+    <pattern>*</pattern>
+    <template>I'm sorry, I'm not sure I understand. Here are some things I can help you with: broken phone issues, repair costs, warranty information, scheduling appointments, screen repair, and water damage. Could you rephrase your question, or is there anything else I can assist you with?</template>
   </category>
 </aiml>
