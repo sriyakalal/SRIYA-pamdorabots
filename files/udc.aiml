@@ -1,0 +1,15 @@
+<aiml>
+  <category>
+    <pattern>HI</pattern>
+    <pattern>HELLO</pattern>
+    <pattern>HEY</pattern>
+    <template>Hi there! How can I help you today?</template>
+  </category>
+
+  <category>
+    <pattern>BYE</pattern>
+    <pattern>GOODBYE</pattern>
+    <pattern>SEE YOU LATER</pattern>
+    <template>It was nice chatting with you! Have a great day!</template>
+  </category>
+</aiml>
